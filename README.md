@@ -1,3 +1,5 @@
+<img src="http://pool.bitcoinn.biz/bitcoin-nova.png">
+
 #Bitcoin-N-Blockchain-Explorer
 Block explorer for Bitcoin-N (bitcoin nova) CryptoNote based cryptocurrency.
 
