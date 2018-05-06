@@ -1,15 +1,14 @@
-var api = 'http://pool.bitcoinn.biz:5454';
+var api = 'http://pool.intucoin.com:8117';
 var blockTargetInterval = 120;
-var coinUnits = 1000000;
-var symbol = 'BTN';
+var coinUnits = 100;
+var symbol = 'INTU';
 var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
-    "btn": [
-        ["pool.bitcoinn.biz", "http://pool.bitcoinn.biz:8133"],
-        ["bitcoinn.criptominando.eu", "https://bitcoinn.criptominando.eu:8216"],
-        ["bitcoinn.multipool.es", "https://bitcoinn.multipool.es:8118"],
-        ["btn.dreampool.info", "https://btn.dreampool.info/api"],
-        ["superblockchain.con-ip.com/btn", "http://superblockchain.con-ip.com:8133"]
-    ]
+    "INTU": [
+        ["pool.eu.intucoin.com", "http://pool.eu.intucoin.com:8117"],
+        ["pool.jp.intucoin.com", "http://pool.jp.intucoin.com:8117"],
+        ["intu.newpool.pq", "http://intu.newpool.pw:8131"],
+        ["intucoin.mining-pool.pw", "https://api.intucoin.mining-pool.pw"]
+      ]
 };
